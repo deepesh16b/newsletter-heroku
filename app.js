@@ -61,10 +61,7 @@ app.post("/", function (req, res) {
 app.post("/failure", function (req, res) {  
     res.redirect("/");
 });
-// https://us21.api.mailchimp.com/3.0/
-// 463dccbb76   -----audience id
-// a00014a4b5b42323827d9f17a2093921-us21 -------mailchimp
-// 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   ------sendinblue
+
 
 app.listen(process.env.PORT || 3000, function (req, res) {  
     console.log("Server started at port 3000!");
